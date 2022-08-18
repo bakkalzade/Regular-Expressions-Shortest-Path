@@ -1,0 +1,95 @@
+-----------------------------------------------------------------
+Project name: Space Probe Construction
+-----------------------------------------------------------------
+Task ID   Description                                  Start  End  
+-----------------------------------------------------------------
+0         Space Probe Hull Construction                0      5    
+1         Hardware and Operating System Installation   5      9    
+2         Radar Installation                           9      11   
+3         Navigation Module Installation               13     14   
+4         Antenna and Communication HW/SW Installation 9      13   
+5         Testing and Finalizing Project               14     17   
+-----------------------------------------------------------------
+Project will be completed in 17 days.
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Project name: Space Shuttle Construction
+-----------------------------------------------------------------
+Task ID   Description                                  Start  End  
+-----------------------------------------------------------------
+0         Space Shuttle Hull Construction              0      17   
+1         Space Shuttle Operating System               23     28   
+2         Space Shuttle Computational Hardware         17     23   
+3         Communication Hardware                       28     37   
+4         Communication Software                       37     44   
+5         Antenna Module Installation                  17     19   
+6         Encryption Software                          44     53   
+7         Radar Hardware                               28     38   
+8         Radar Software                               53     58   
+9         Navigator Module                             58     62   
+10        Radar Construction                           17     28   
+11        Navigation Software                          62     68   
+12        Testing and Project Finalizing               68     78   
+-----------------------------------------------------------------
+Project will be completed in 78 days.
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Project name: Space Suit Development
+-----------------------------------------------------------------
+Task ID   Description                                  Start  End  
+-----------------------------------------------------------------
+0         Research Facility                            0      10   
+1         Testing Facility                             20     30   
+2         Production Facility                          10     20   
+3         Fabric Production                            20     25   
+4         Fabric Research                              10     14   
+5         Fabric Testing                               30     31   
+6         Glass Testing                                30     31   
+7         Glass Research                               10     13   
+8         Glass Production                             20     26   
+9         Radio Production                             31     35   
+10        Radio Testing                                35     36   
+11        Radio Hardware Development                   10     17   
+12        Space Suit Production                        36     46   
+13        Space Suit Testing                           46     49   
+-----------------------------------------------------------------
+Project will be completed in 49 days.
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Project name: BigProject
+-----------------------------------------------------------------
+Task ID   Description                                  Start  End  
+-----------------------------------------------------------------
+0         Task 0                                       0      8    
+1         Task 1                                       8      10   
+2         Task 2                                       8      11   
+3         Task 3                                       8      9    
+4         Task 4                                       21     26   
+5         Task 5                                       11     22   
+6         Task 6                                       16     21   
+7         Task 7                                       22     23   
+8         Task 8                                       8      16   
+9         Task 9                                       26     27   
+10        Task 10                                      23     26   
+11        Task 11                                      23     35   
+12        Task 12                                      26     32   
+13        Task 13                                      27     35   
+14        Task 14                                      35     45   
+15        Task 15                                      8      15   
+16        Task 16                                      8      9    
+17        Task 17                                      8      9    
+18        Task 18                                      8      17   
+19        Task 19                                      45     56   
+20        Task 20                                      35     38   
+21        Task 21                                      35     47   
+22        Task 22                                      45     47   
+23        Task 23                                      15     19   
+24        Task 24                                      17     28   
+25        Task 25                                      56     61   
+26        Task 26                                      47     52   
+27        Task 27                                      61     63   
+28        Task 28                                      52     56   
+29        Task 29                                      63     72   
+-----------------------------------------------------------------
+Project will be completed in 72 days.
+-----------------------------------------------------------------

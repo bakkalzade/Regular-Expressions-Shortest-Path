@@ -1,0 +1,260 @@
+<Projects>
+    <Project>
+        <Name>BigProject</Name>
+        <Tasks>
+            <Task>
+                <TaskID>0</TaskID>
+                <Description>Task 0</Description>
+                <Duration>8</Duration>
+                <Dependencies/>
+            </Task>
+            <Task>
+                <TaskID>1</TaskID>
+                <Description>Task 1</Description>
+                <Duration>2</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>0</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>2</TaskID>
+                <Description>Task 2</Description>
+                <Duration>3</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>0</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>3</TaskID>
+                <Description>Task 3</Description>
+                <Duration>1</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>0</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>4</TaskID>
+                <Description>Task 4</Description>
+                <Duration>5</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>6</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>5</TaskID>
+                <Description>Task 5</Description>
+                <Duration>11</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>1</DependsOnTaskID>
+                    <DependsOnTaskID>2</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>6</TaskID>
+                <Description>Task 6</Description>
+                <Duration>5</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>3</DependsOnTaskID>
+                    <DependsOnTaskID>8</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>7</TaskID>
+                <Description>Task 7</Description>
+                <Duration>1</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>5</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>8</TaskID>
+                <Description>Task 8</Description>
+                <Duration>8</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>0</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>9</TaskID>
+                <Description>Task 9</Description>
+                <Duration>1</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>4</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>10</TaskID>
+                <Description>Task 10</Description>
+                <Duration>3</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>7</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>11</TaskID>
+                <Description>Task 11</Description>
+                <Duration>12</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>7</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>12</TaskID>
+                <Description>Task 12</Description>
+                <Duration>6</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>4</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>13</TaskID>
+                <Description>Task 13</Description>
+                <Duration>8</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>9</DependsOnTaskID>
+                    <DependsOnTaskID>10</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>14</TaskID>
+                <Description>Task 14</Description>
+                <Duration>10</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>11</DependsOnTaskID>
+                    <DependsOnTaskID>12</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>15</TaskID>
+                <Description>Task 15</Description>
+                <Duration>7</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>0</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>16</TaskID>
+                <Description>Task 16</Description>
+                <Duration>1</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>0</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>17</TaskID>
+                <Description>Task 17</Description>
+                <Duration>1</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>0</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>18</TaskID>
+                <Description>Task 18</Description>
+                <Duration>9</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>0</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>19</TaskID>
+                <Description>Task 19</Description>
+                <Duration>11</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>14</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>20</TaskID>
+                <Description>Task 20</Description>
+                <Duration>3</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>13</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>21</TaskID>
+                <Description>Task 21</Description>
+                <Duration>12</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>13</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>22</TaskID>
+                <Description>Task 22</Description>
+                <Duration>2</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>14</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>23</TaskID>
+                <Description>Task 23</Description>
+                <Duration>4</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>15</DependsOnTaskID>
+                    <DependsOnTaskID>16</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>24</TaskID>
+                <Description>Task 24</Description>
+                <Duration>11</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>17</DependsOnTaskID>
+                    <DependsOnTaskID>18</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>25</TaskID>
+                <Description>Task 25</Description>
+                <Duration>5</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>19</DependsOnTaskID>
+                    <DependsOnTaskID>20</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>26</TaskID>
+                <Description>Task 26</Description>
+                <Duration>5</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>21</DependsOnTaskID>
+                    <DependsOnTaskID>22</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>27</TaskID>
+                <Description>Task 27</Description>
+                <Duration>2</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>23</DependsOnTaskID>
+                    <DependsOnTaskID>25</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>28</TaskID>
+                <Description>Task 28</Description>
+                <Duration>4</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>24</DependsOnTaskID>
+                    <DependsOnTaskID>26</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>29</TaskID>
+                <Description>Task 29</Description>
+                <Duration>9</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>27</DependsOnTaskID>
+                    <DependsOnTaskID>28</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+        </Tasks>
+    </Project>
+</Projects>
+
+
+
+

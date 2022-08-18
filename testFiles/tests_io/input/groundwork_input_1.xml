@@ -1,0 +1,60 @@
+<Projects>
+    <Project>
+        <Name>Space Probe Construction</Name>
+        <Tasks>
+            <Task>
+                <TaskID>0</TaskID>
+                <Description>Space Probe Hull Construction</Description>
+                <Duration>5</Duration>
+                <Dependencies></Dependencies>
+            </Task>
+            <Task>
+                <TaskID>1</TaskID>
+                <Description>Hardware and Operating System Installation</Description>
+                <Duration>4</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>0</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>2</TaskID>
+                <Description>Radar Installation</Description>
+                <Duration>2</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>1</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>3</TaskID>
+                <Description>Navigation Module Installation</Description>
+                <Duration>1</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>2</DependsOnTaskID>
+                    <DependsOnTaskID>4</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>4</TaskID>
+                <Description>Antenna and Communication HW/SW Installation</Description>
+                <Duration>4</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>0</DependsOnTaskID>
+                    <DependsOnTaskID>1</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>5</TaskID>
+                <Description>Testing and Finalizing Project</Description>
+                <Duration>3</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>3</DependsOnTaskID>
+                    <DependsOnTaskID>4</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+        </Tasks>
+    </Project>
+</Projects>
+
+
+
+
